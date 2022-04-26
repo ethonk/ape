@@ -1,0 +1,1059 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.27f1 (e759542391ea) revision 15161684'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 32721 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ethonk/Documents/GitHub/ape/APE
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51598
+Successfully changed project path to: C:/Users/ethonk/Documents/GitHub/ape/APE
+C:/Users/ethonk/Documents/GitHub/ape/APE
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 57.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ethonk/Documents/GitHub/ape/APE/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:   
+    VRAM:     8050 MB
+    Driver:   27.21.14.5751
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001014 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.540 seconds
+Domain Reload Profiling:
+	ReloadAssembly (540ms)
+		BeginReloadAssembly (56ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (421ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (133ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (175ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005234 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 55.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.060 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1061ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (876ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (328ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3171 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 143.8 MB.
+System memory in use after: 144.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3607.
+Total: 3.856800 ms (FindLiveObjects: 0.334700 ms CreateObjectMapping: 0.074900 ms MarkObjects: 3.344900 ms  DeleteObjects: 0.101100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404a48e2d22277cca1fb22b9134c76d9') in 0.076138 seconds 
+  Import took 0.082355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.572601 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33eca45497afbd730025b35aeb598f9') in 0.005426 seconds 
+  Import took 0.011028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.998298 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7030f8a05c83cab007d8e95509327af') in 0.020330 seconds 
+  Import took 0.026707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.858091 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cce278987bf060b26a5df9b830996dc') in 0.019499 seconds 
+  Import took 0.026582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.701564 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811e40ad06ff421da4971ea217030f23') in 0.017197 seconds 
+  Import took 0.023880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.244730 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021a27fa705e166af767c4ef24a4c19d') in 0.015791 seconds 
+  Import took 0.022000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.194658 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ad3666a8b349800cc84886ce97b98f') in 0.017627 seconds 
+  Import took 0.023935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.963431 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5c12d8496a38063f8bb344ed55cb77') in 0.017268 seconds 
+  Import took 0.023690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.559847 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5436c432142b5a7948b39a754fbdec46') in 0.006218 seconds 
+  Import took 0.012071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.827369 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31737395014de1328393a424eedde55d') in 0.005239 seconds 
+  Import took 0.010973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.608598 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c301a31d7b0a1e959c50fe97169a1022') in 0.005137 seconds 
+  Import took 0.010659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.793911 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d92bbd880e46130cf7b775dbe95ed0c') in 0.005065 seconds 
+  Import took 0.010849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.816419 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43291287787dabedce29d896710e16e6') in 0.005474 seconds 
+  Import took 0.010849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.077593 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92547594e583295d5748086c081ca62') in 0.004860 seconds 
+  Import took 0.010374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.223699 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a6447d55176372aa70ba409b9073aa') in 0.005527 seconds 
+  Import took 0.010958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.816119 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380682db03d2453e05b79f73d966ba83') in 0.004942 seconds 
+  Import took 0.010514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.806101 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59cdbf57e1db566dad5e086bd931cac7') in 0.004802 seconds 
+  Import took 0.010440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.625325 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8189cd53fc3299488b6c101955299d') in 0.005374 seconds 
+  Import took 0.011103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.244969 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2399cd0dfd4ee54597a87acfa8fe7210') in 0.005787 seconds 
+  Import took 0.011463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.391601 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dafd9a8773253fbad7dded3630587f5') in 0.005194 seconds 
+  Import took 0.010655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.790871 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e3adc83033520201b6302283750f98') in 0.005541 seconds 
+  Import took 0.011795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.402213 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fe346c9a89ec20475fa5718d6a6092') in 0.004908 seconds 
+  Import took 0.011496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.391695 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18eb9b55e71e2a0d22a17b7e4a71646d') in 0.005098 seconds 
+  Import took 0.011056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.319605 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2bb74cc0b27fe92839458509e5ae3d2') in 0.005743 seconds 
+  Import took 0.011387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.004112 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c5c38de4fc5b371932530ddb8b0c63') in 0.018231 seconds 
+  Import took 0.024652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.005615 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4022927e10ee46c3a308d6ce546f81fb') in 0.019638 seconds 
+  Import took 0.026129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.595857 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f23746940b40789e1d3de0ae1ee45d') in 0.021327 seconds 
+  Import took 0.027617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.999841 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3973ab88472b20e6e8e4b36d378d73') in 0.018136 seconds 
+  Import took 0.024501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.514828 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17dc38c6f4fb30faf5bd9ae41a869452') in 0.018514 seconds 
+  Import took 0.025172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.217423 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56aa2663b5aee774a1035fbb94ba2b3b') in 0.018983 seconds 
+  Import took 0.025701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.408592 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665a92402b8079c0963f46f9afa8e63f') in 0.023311 seconds 
+  Import took 0.029737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.623986 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78062d6302544660848bbfe1cfffe51') in 0.018111 seconds 
+  Import took 0.024711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.677656 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57558e7b88df27ce24077a11fb3f5bf6') in 0.017704 seconds 
+  Import took 0.024035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.593498 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19b7fa8a5bce5652aabebcb5786beaf') in 0.018292 seconds 
+  Import took 0.025079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.877702 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f22178725a965c2a35c8d6bf971dd7') in 0.017597 seconds 
+  Import took 0.023906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.614730 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b659dbfaa8a01d6333c984d064d6a9') in 0.021290 seconds 
+  Import took 0.028194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.210524 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c470d32b8c7aa9e5ffb88b3580b9761') in 0.018032 seconds 
+  Import took 0.024228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.604243 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4fbbf85ccf515acd7ec6c57aef460b') in 0.019376 seconds 
+  Import took 0.026223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.043355 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2328bc91b6662536525e9a0d5e3d4691') in 0.021116 seconds 
+  Import took 0.027753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.203467 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abb67ac15fc6dcc35fd490e3d8beecf') in 0.019378 seconds 
+  Import took 0.025784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.032277 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c5101257210c338b210e2bf372bf0b') in 0.018303 seconds 
+  Import took 0.024897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.004272 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2074590c0b7439a44c90152ea82368') in 0.018578 seconds 
+  Import took 0.024879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.016612 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf28a2ad6d1539f2374f990bd4a89a78') in 0.019170 seconds 
+  Import took 0.025330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.914392 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1acdb102cbcc2a81381c092d3887c64a') in 0.021333 seconds 
+  Import took 0.027572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.599989 seconds.
+  path: Assets/Materials/Light.mat
+  artifactKey: Guid(723b046b462663449b03ead9e1cb54d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Light.mat using Guid(723b046b462663449b03ead9e1cb54d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b8b280e180fd264d5fd37e36ccf983') in 0.184856 seconds 
+  Import took 0.190400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.047477 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25de5cb0b1122257e037ca591e2509a') in 0.019044 seconds 
+  Import took 0.025696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.206444 seconds.
+  path: Assets/Assets/ExampleAssets/Models/brush_low.fbx
+  artifactKey: Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Models/brush_low.fbx using Guid(aed8c47425ab91f4eb06ce6fe47c3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c649b101b9d8f3dad9b93a95f62ae811') in 0.269525 seconds 
+  Import took 0.275369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Assets/ExampleAssets/Models/hammer_low.fbx
+  artifactKey: Guid(68a66fb5a71f8204a8dcb613c97d1fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Models/hammer_low.fbx using Guid(68a66fb5a71f8204a8dcb613c97d1fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0098d2334523c92cc3d702ca4ee63b2') in 0.035733 seconds 
+  Import took 0.040322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Assets/ExampleAssets/Models/safetygoggles_low.fbx
+  artifactKey: Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Models/safetygoggles_low.fbx using Guid(6296e48663fd7ad46b1a2af507f871cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae8946a3f99a923f7803907a8c27ead') in 0.238019 seconds 
+  Import took 0.243419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Assets/ExampleAssets/Models/Stud.fbx
+  artifactKey: Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Models/Stud.fbx using Guid(34624edaccd9d704a95ed404d919b492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb17f227481600cbf7b05869a1581d00') in 0.049356 seconds 
+  Import took 0.054291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Assets/ExampleAssets/Models/jigsaw_low.fbx
+  artifactKey: Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Models/jigsaw_low.fbx using Guid(8b73e8872ca76104bbca4ee2b704a1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aff09e9c2351cde3502153346cc77aa') in 0.035171 seconds 
+  Import took 0.039885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Assets/ExampleAssets/Models/magneticlevel_low.fbx
+  artifactKey: Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Models/magneticlevel_low.fbx using Guid(bae110eee250e4b418b188f4ae4e3170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7daa638a4f61892d85b4e50fee1e849') in 0.048535 seconds 
+  Import took 0.053210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Assets/ExampleAssets/Models/paintbucket_low.fbx
+  artifactKey: Guid(b451a052397f03c4f8a04d915d1c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Models/paintbucket_low.fbx using Guid(b451a052397f03c4f8a04d915d1c0492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb120b6ed1c9690f3c18633a9ae2dd0') in 0.065907 seconds 
+  Import took 0.070579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Assets/ExampleAssets/Models/Workshop_Set.fbx
+  artifactKey: Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Models/Workshop_Set.fbx using Guid(47616bd0cda748d4cbedcfc908506b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07793a4d2b03e0e09167bfceb24a94b') in 0.092925 seconds 
+  Import took 0.097611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Assets/ExampleAssets/Models/ConstructionLight_Low.fbx
+  artifactKey: Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Models/ConstructionLight_Low.fbx using Guid(e3ae06a3979f53046aa05330d69de1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2dbd239026cb49b08fecaf816ee07f') in 0.059165 seconds 
+  Import took 0.064862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Assets/ExampleAssets/Models/Workbench.fbx
+  artifactKey: Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Models/Workbench.fbx using Guid(efe9381559c516743bd05cef82f39ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9763579b58169ef327fd8d483de42484') in 0.090720 seconds 
+  Import took 0.096140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Assets/ExampleAssets/Models/Workbench_Low.fbx
+  artifactKey: Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Models/Workbench_Low.fbx using Guid(ff6dc36862fe41641bb21568d92147c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f99d08570cdde3afaf55ae1a8262d9b') in 0.090180 seconds 
+  Import took 0.095405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Assets/ExampleAssets/Models/safetyhat_low.fbx
+  artifactKey: Guid(9d0d902f71acfe646a46cb625f815a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Models/safetyhat_low.fbx using Guid(9d0d902f71acfe646a46cb625f815a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5935c6193b6a59e066fce2003b46692c') in 0.032929 seconds 
+  Import took 0.037649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Assets/ExampleAssets/Models/small_plane.fbx
+  artifactKey: Guid(aeaee610429f51f44981e141eb2a3545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Models/small_plane.fbx using Guid(aeaee610429f51f44981e141eb2a3545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21ffefb080f2bc5460e0e031b036c2e') in 0.031954 seconds 
+  Import took 0.036626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.358774 seconds.
+  path: Assets/Assets/ExampleAssets/Prefabs/Construction Light Low.prefab
+  artifactKey: Guid(bf0a225a9ff184f2789f3036faaa9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Prefabs/Construction Light Low.prefab using Guid(bf0a225a9ff184f2789f3036faaa9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f74b3dba46066064816d7e6692d99d') in 0.386876 seconds 
+  Import took 0.392392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Assets/ExampleAssets/Prefabs/Workshop Set.prefab
+  artifactKey: Guid(a87f0180d46fd334b9025d0314a0dc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Prefabs/Workshop Set.prefab using Guid(a87f0180d46fd334b9025d0314a0dc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb59fe35b46f6d5fb8977cb67aad7d68') in 0.832967 seconds 
+  Import took 0.838175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Assets/ExampleAssets/Prefabs/Paint Supplies.prefab
+  artifactKey: Guid(283e6530a665e4513959d1cd4883682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Prefabs/Paint Supplies.prefab using Guid(283e6530a665e4513959d1cd4883682f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b5a261c2bfc66e84c83c897bf34b0a') in 0.656540 seconds 
+  Import took 0.661802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Assets/ExampleAssets/Prefabs/Workbench_LOD0.prefab
+  artifactKey: Guid(c0adcaeba3022437293536832628fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Prefabs/Workbench_LOD0.prefab using Guid(c0adcaeba3022437293536832628fdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b196feb218f52a596f6f84baec0baa31') in 0.036433 seconds 
+  Import took 0.041870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Assets/ExampleAssets/Prefabs/Workbench.prefab
+  artifactKey: Guid(8850d132797ff49298ba781e8e1c9bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Prefabs/Workbench.prefab using Guid(8850d132797ff49298ba781e8e1c9bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbe68a2deb797bc729746166f43451f') in 0.051627 seconds 
+  Import took 0.057409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.123735 seconds.
+  path: Assets/Assets/ExampleAssets/Prefabs/Props.prefab
+  artifactKey: Guid(85dfab9623c67784fa7894de63cd1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Prefabs/Props.prefab using Guid(85dfab9623c67784fa7894de63cd1604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23563b599c648e10e5cef0a87a160110') in 0.053999 seconds 
+  Import took 0.062249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Assets/ExampleAssets/Prefabs/Workbench_LOD1.prefab
+  artifactKey: Guid(38d5ecfa2b93c4095b4cc5d4a590e676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Prefabs/Workbench_LOD1.prefab using Guid(38d5ecfa2b93c4095b4cc5d4a590e676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9727547acf536eeb6a25b0e190fb1397') in 0.020849 seconds 
+  Import took 0.028511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.550671 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2a30e114c4f689ef472ac3ccce9571') in 0.018140 seconds 
+  Import took 0.024522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.472790 seconds.
+  path: Assets/Assets/ExampleAssets
+  artifactKey: Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets using Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ac45704b3e904ca5b19a6457cc79ac') in 0.005751 seconds 
+  Import took 0.011155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.109541 seconds.
+  path: Assets/Assets/ExampleAssets/Prefabs
+  artifactKey: Guid(5e04804d4b233d04d92ef41852c3f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/ExampleAssets/Prefabs using Guid(5e04804d4b233d04d92ef41852c3f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768324c56d94b4efa7303716f65df392') in 0.005607 seconds 
+  Import took 0.011397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.736833 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a83be7479e9e93d3c50a60b521a3cc') in 0.020671 seconds 
+  Import took 0.027179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.267084 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd89b5f998494b9b6684bfb98ebdda6') in 0.019031 seconds 
+  Import took 0.025528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.112199 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7780ea6ea042fd2b838888fd6ccd9e25') in 0.019285 seconds 
+  Import took 0.025913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.680311 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d2910e0f2e8da38bce755b3c83e823') in 0.017390 seconds 
+  Import took 0.024012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.689486 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68faac6166d78a7417a7c858e445cd1') in 0.019179 seconds 
+  Import took 0.025604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.728714 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77e47f4ac11d48d94de42f280a49180') in 0.019706 seconds 
+  Import took 0.026979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.600550 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26996b0a3757d14774d0d1d5d52b4db8') in 0.018695 seconds 
+  Import took 0.025306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.423302 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fd438aeedd3171834e33112d95dc6b') in 0.018866 seconds 
+  Import took 0.025875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.207429 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e4ef0abc0b4205702a35f7758b7bb2') in 0.020422 seconds 
+  Import took 0.027258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.912570 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92133f6c9a8a4e3ae5f1efc39dbc3963') in 0.020643 seconds 
+  Import took 0.027797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.381646 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a32658e76b54688dd74656e74727ab6') in 0.019604 seconds 
+  Import took 0.026280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.489356 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67beac6f54d9db49f2021e60853440bd') in 0.021020 seconds 
+  Import took 0.027915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.813495 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c695af360c7d6b511f1f5b3956f5918c') in 0.020088 seconds 
+  Import took 0.027134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.422170 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7839a8e912b7765acd1408ad7bf4b8') in 0.019773 seconds 
+  Import took 0.026150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.825904 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e934e643390134cac597394b2508fc3') in 0.018986 seconds 
+  Import took 0.025697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.429844 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7ae20738324bf3a707d28d9d386121') in 0.021021 seconds 
+  Import took 0.028025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.206110 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcbec1cc06135768a0d59856889835e') in 0.018999 seconds 
+  Import took 0.025292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.619234 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b960ac073d3a2854c6d9d3eace9f64') in 0.018220 seconds 
+  Import took 0.024554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.213879 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717b392a88abf3f23f5a3aab34346403') in 0.021162 seconds 
+  Import took 0.028477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.267667 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a54cb0fa6a9b7b54fa039db8b96896e') in 0.021019 seconds 
+  Import took 0.027482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.369951 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0141c68e1f9b45cead7e7b054827d031') in 0.017397 seconds 
+  Import took 0.023401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.974060 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5af25b11a863fe2d7b104d64a05ea4') in 0.022700 seconds 
+  Import took 0.029626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.685567 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d75fe43a27fddb0ce9631bec5d153cd') in 0.019792 seconds 
+  Import took 0.027169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.503360 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71a2bdbfb8553ab547f6b5abc0d50d7') in 0.022078 seconds 
+  Import took 0.029827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.505992 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bf2199a2c6fd1cc7bd70b757054eb6') in 0.020050 seconds 
+  Import took 0.027074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.467344 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c7c4e90f89abcbe564f3e3db26f718') in 0.017621 seconds 
+  Import took 0.024078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.606068 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa7c25201187db698f6e4b94dada169') in 0.018826 seconds 
+  Import took 0.025156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.835534 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0454b4f7a4994d7eb029725e7b64e82') in 0.019224 seconds 
+  Import took 0.026146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.213094 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f25e9b365a70c358a20e3c0402a9bce') in 0.019748 seconds 
+  Import took 0.026845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.698663 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b7e87150aafbaaac25c5570c87f076') in 0.021667 seconds 
+  Import took 0.028307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.913335 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3109538a3bc86f4dbbaebb18c4b1e6') in 0.017599 seconds 
+  Import took 0.023563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.574645 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80476354fdd0f1ac41b3a6fe84613fbb') in 0.020043 seconds 
+  Import took 0.026749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.821905 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639992060cb3d3fa6e13f8beabe3cd12') in 0.018739 seconds 
+  Import took 0.025178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 336.099652 seconds.
+  path: Assets/Assets/DiamondGrate-FloorSection_Square_Roof.prefab
+  artifactKey: Guid(2d00c868241e3f7489a121e62c79cb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DiamondGrate-FloorSection_Square_Roof.prefab using Guid(2d00c868241e3f7489a121e62c79cb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc70f815c96f1c613a6c81f44bcf5164') in 0.029122 seconds 
+  Import took 0.036339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853ccc363977b77ff07ddca9249611b9') in 0.023716 seconds 
+  Import took 0.029990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Assets/DiamondGrate-FloorSection_Square_DiamondGrate-Doorway.prefab
+  artifactKey: Guid(6423408285d1ce242ae3b0109dac121a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DiamondGrate-FloorSection_Square_DiamondGrate-Doorway.prefab using Guid(6423408285d1ce242ae3b0109dac121a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9900ca5ad9e1558af7f0d306f38593be') in 0.010870 seconds 
+  Import took 0.015905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Assets/DiamondGrate-Horizontal.prefab
+  artifactKey: Guid(5cc74c65d58265447b24ed34c1567c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DiamondGrate-Horizontal.prefab using Guid(5cc74c65d58265447b24ed34c1567c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe46963889518a85821f77f1888e8869') in 0.009743 seconds 
+  Import took 0.015569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Assets/DiamondGrate_Pillar.prefab
+  artifactKey: Guid(2441001702f91f54893bb140c4854701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DiamondGrate_Pillar.prefab using Guid(2441001702f91f54893bb140c4854701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5715cb56e5d1a6a6f71c54ff4a73cd6f') in 0.010830 seconds 
+  Import took 0.017878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Assets/DiamondGrate-Vertical.prefab
+  artifactKey: Guid(f332c7ae9644a424fb5fe3f002509aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DiamondGrate-Vertical.prefab using Guid(f332c7ae9644a424fb5fe3f002509aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6876025de18c7dd7bf8105aa94af82') in 0.010112 seconds 
+  Import took 0.016707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Assets/DiamondGrate-FloorSection_Square_Floor.prefab
+  artifactKey: Guid(809e556eb80ea944da6ffc88200b6830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DiamondGrate-FloorSection_Square_Floor.prefab using Guid(809e556eb80ea944da6ffc88200b6830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8e76e426b30470e5f32959205e7291') in 0.022958 seconds 
+  Import took 0.029629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.558661 seconds.
+  path: Assets/Assets/DiamondGrate-FloorSection_Square_Roof.prefab
+  artifactKey: Guid(2d00c868241e3f7489a121e62c79cb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DiamondGrate-FloorSection_Square_Roof.prefab using Guid(2d00c868241e3f7489a121e62c79cb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a235eb61912910d8633ab824943bae2') in 0.027521 seconds 
+  Import took 0.034805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Assets/BlackSteel_Floor_Wires.prefab
+  artifactKey: Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BlackSteel_Floor_Wires.prefab using Guid(f558e7ac537140e458457b91cf3d0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3acdb1b09b0356714c75ceb407d7fe9') in 0.025798 seconds 
+  Import took 0.033367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Assets/DiamondGrate-FloorSection_Square_DiamondGrate-Doorway.prefab
+  artifactKey: Guid(6423408285d1ce242ae3b0109dac121a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DiamondGrate-FloorSection_Square_DiamondGrate-Doorway.prefab using Guid(6423408285d1ce242ae3b0109dac121a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797f4d87bcd29ece7e72b00aa13c3bf0') in 0.006327 seconds 
+  Import took 0.012751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Assets/DiamondGrate-Horizontal.prefab
+  artifactKey: Guid(5cc74c65d58265447b24ed34c1567c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DiamondGrate-Horizontal.prefab using Guid(5cc74c65d58265447b24ed34c1567c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c7b1f86043032e706ae8d7a91b7c24') in 0.006814 seconds 
+  Import took 0.013693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Assets/DiamondGrate_Pillar.prefab
+  artifactKey: Guid(2441001702f91f54893bb140c4854701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DiamondGrate_Pillar.prefab using Guid(2441001702f91f54893bb140c4854701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00469d898543806937dbacfd5423eb7') in 0.009155 seconds 
+  Import took 0.014423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Assets/DiamondGrate-Vertical.prefab
+  artifactKey: Guid(f332c7ae9644a424fb5fe3f002509aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DiamondGrate-Vertical.prefab using Guid(f332c7ae9644a424fb5fe3f002509aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9764dc73eb22245fd823cbb31d5a217') in 0.006026 seconds 
+  Import took 0.011310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Assets/DiamondGrate-FloorSection_Square_Floor.prefab
+  artifactKey: Guid(809e556eb80ea944da6ffc88200b6830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/DiamondGrate-FloorSection_Square_Floor.prefab using Guid(809e556eb80ea944da6ffc88200b6830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64c9f5cb1f40d9d04c43af8f9d95df2') in 0.019716 seconds 
+  Import took 0.027350 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
